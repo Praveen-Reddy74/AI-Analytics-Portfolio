@@ -1,15 +1,3 @@
----
-
-## Evaluation Metrics
-To ensure reliable and clinically meaningful results, the following metrics were used:
-
-- Mean Cross-Validation Accuracy
-- Standard Deviation of CV Accuracy
-- Train Accuracy vs Test Accuracy
-- Precision, Recall, and F1 Score
-- Confusion Matrix
-
-Special emphasis was placed on **F1-score**, as accuracy alone can be misleading for imbalanced datasets.
 
 ---
 
@@ -21,3 +9,31 @@ Special emphasis was placed on **F1-score**, as accuracy alone can be misleading
 - Cross-validation confirmed consistent performance across different data splits.
 
 ---
+
+## Results
+
+### Hyperparameter Tuning (Grid Search)
+![Grid Search Results](./GridSearch_Tuning_Results_CHD_Classification.png)
+
+Grid Search was used to optimize AdaBoost hyperparameters, identifying the best configuration based on cross-validated accuracy. The optimal model achieved a strong balance between bias and variance.
+
+---
+
+### Model Performance After SMOTE (K-Fold Cross Validation)
+![K-Fold CV After SMOTE](./K-Fold CV Accuracy_After_SMOTE_CHD.png)
+
+After applying SMOTE, ensemble models showed improved cross-validation accuracy and reduced variance, indicating better generalization and improved minority-class detection.
+
+---
+
+### Model Performance Before SMOTE (K-Fold Cross Validation)
+![K-Fold CV Before SMOTE](./K-Fold CV_Accuracy_Before_SMOTE_CHD.png)
+
+Before SMOTE, models exhibited higher apparent accuracy but significantly weaker F1 scores, highlighting the impact of class imbalance on predictive reliability.
+
+---
+
+### Randomized Search Cross-Validation Results
+![Randomized CV Results](./Randomized_CV_Results_CHD_Patients_Classification.png)
+
+Randomized Search CV further evaluated multiple model configurations efficiently, confirming the superiority of ensemble methods when combined with imbalance-handling techniques.
