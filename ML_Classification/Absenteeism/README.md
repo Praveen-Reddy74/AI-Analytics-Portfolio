@@ -19,3 +19,6 @@ This categorized target variable shoule be stored as:
 - EDA with Graph for Independent and Dependent Features
 - Prediction Using a Statistical Model (Logistic Regression)
 - Prediction Using Decision Trees (Gini and Entropy)
+
+- With Pipeline
+- Without Pipeline
