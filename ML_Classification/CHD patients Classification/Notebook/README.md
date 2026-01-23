@@ -39,17 +39,3 @@ The following models were evaluated:
 
 Each model was tested **before and after applying SMOTE** to analyze the impact of imbalance correction.
 
----
-
-## Evaluation Metrics
-To ensure reliable and clinically meaningful results, the following metrics were used:
-
-- Mean Cross-Validation Accuracy
-- Standard Deviation of CV Accuracy
-- Train Accuracy vs Test Accuracy
-- Precision, Recall, and F1 Score
-- Confusion Matrix
-
-Special emphasis was placed on **F1-score**, as accuracy alone can be misleading for imbalanced datasets.
-
----
