@@ -29,7 +29,7 @@ After applying SMOTE, ensemble models showed improved cross-validation accuracy,
 
 ## Model Performance Before SMOTE (K-Fold Cross Validation)
 
-![K-Fold CV Before SMOTE](./K-Fold%20CV%_20Accuracy_Before_SMOTE_CHD.png)
+![K-Fold CV Before SMOTE](./K-Fold_CV_Accuracy_Before_SMOTE_CHD.png)
 
 Before SMOTE, models exhibited higher apparent accuracy but significantly weaker F1 sco
 
