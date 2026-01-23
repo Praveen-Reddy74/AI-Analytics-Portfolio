@@ -1,15 +1,10 @@
-# AI-Analytics-Portfolio
+# AI & Machine Learning Analytics Portfolio
 
-
-# AI & Analytics Portfolio – M Praveen Kumar
-
-This repository showcases my work in Machine Learning - Single, Ensemble, Hyperparameter Tuning, Analytics
-
-## Repository Structure
-- ML_Classification: Classification models and notebooks
-- ML_Regression: Regression models and forecasting
-- Datasets: Sample datasets used across projects
-
-## Key Focus Areas
-- Business Analytics & Visualization
+This repository showcases hands-on projects in:
 - Machine Learning (Classification & Regression)
+- Ensemble Models
+- Hyperparameter Tuning
+- Data Analytics & Visualization
+- Power BI Dashboards - Cases
+
+Each project includes datasets, notebooks, results, and detailed documentation.
