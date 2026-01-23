@@ -1,22 +1,17 @@
-**Case Study: Promotion Decision System at NexaCore Solutions**
+**Dataset Description**
+The dataset contains the following attributes:
 
-You are a Data Scientist at NexaCore Solutions, a multinational organization with a geographically distributed workforce and diverse functional units. The company invests heavily in employee training, performance evaluation, and leadership development programs.
-
-Despite a well-defined promotion policy, recent internal audits have uncovered significant inconsistencies in promotion outcomes across departments and regions.
-
-**Senior leadership has raised concerns regarding:**
-
-Unequal promotion probabilities for employees with similar performance profiles
-Department-level subjectivity and favoritism
-Lack of transparency in promotion decisions
-To eliminate bias and introduce accountability, the organization has decided to implement a machine learning–driven promotion recommendation system.
-
-**Problem Statement**
-
-Your task is to build a binary classification system that predicts:
-
-Whether an employee should be promoted (is_promoted = 1) or not (is_promoted = 0)
-
-based on historical employee data.
-
-The system will serve as a decision-support tool for the HR department and will directly influence promotion recommendations.
+- Variable	Description
+- employee_id	- Unique employee identifier
+- department	- Functional department
+- region -	Region of employment
+- education	- Highest qualification
+- gender - Gender
+- recruitment_channel	- Hiring source
+- no_of_trainings -	Number of training programs attended
+- age	- Age of the employee
+- previous_year_rating - Performance rating in the previous year
+- length_of_service	- Total years with the organization
+- awards_won?	- Whether any award was received
+- avg_training_score	- Average training performance
+- is_promoted	- Target variable
