@@ -1,5 +1,3 @@
----
-
 ## Dataset
 - **Dataset**: Titanic Passenger Dataset
 - **Target Variable**:
