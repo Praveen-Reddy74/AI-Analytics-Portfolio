@@ -1,7 +1,6 @@
-Absenteeism Prediction Project
-Decision tree usning entropy
+**Absenteeism Prediction Project**
 
-Project Background / Story¶
+**Project Background / Story**
 A manufacturing company has been experiencing inconsistent employee attendance, which has begun to affect productivity and project timelines.
 To better understand the factors contributing to absenteeism, the HR Analytics team has collected comprehensive data on employees.
 This includes demographic details, lifestyle habits, work-related variables, and health indicators.
@@ -16,4 +15,7 @@ Medium: 3–5 hours
 High: > 5 hours
 This categorized target variable shoule be stored as:
 
-Absenteeism category
+- Exploratory Data Analysis, Data Preparation, and Feature Engineering
+- EDA with Graph for Independent and Dependent Features
+- Prediction Using a Statistical Model (Logistic Regression)
+- Prediction Using Decision Trees (Gini and Entropy)
