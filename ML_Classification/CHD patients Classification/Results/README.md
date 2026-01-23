@@ -33,7 +33,10 @@ After applying SMOTE, ensemble models showed improved cross-validation accuracy,
 
 Before SMOTE, models exhibited higher apparent accuracy but significantly weaker F1 sco
 
+---
+
 ### Randomized Search Cross-Validation Results
 ![Randomized CV Results](./Randomized_CV_Results_CHD_Patients_Classification.png)
 
 Randomized Search CV further evaluated multiple model configurations efficiently, confirming the superiority of ensemble methods when combined with imbalance-handling techniques.
+---
