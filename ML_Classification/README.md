@@ -9,3 +9,5 @@ Projects include:
 - Titanic Survival
 - Toyota Transmission Classification
 - PIMA Indians Diabetes
+- CHD patients Classification
+- Classifying valid Insurance claim[Fraud or not]
