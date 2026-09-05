@@ -20,7 +20,7 @@ This repository focuses on predictive modelling: given historical, labeled data,
 |---|---|---|
 | [Absenteeism](./ML_Classification/Absenteeism) | Classification | Categorizing employee absenteeism (Low/Medium/High) from demographic, lifestyle, and work-related data using logistic regression and decision trees |
 | [CHD patients Classification](./ML_Classification/CHD%20patients%20Classification) | Classification | Predicting long-term coronary heart disease risk from clinical and lifestyle indicators |
-| [Classifying valid Insurance claim[Fraud or not]](<./ML_Classification/Classifying valid Insurance claim[Fraud or not]>) | Classification | Detecting/predicting insurance claim outcomes from customer and policy attributes |
+| [Classifying valid Insurance claim\[Fraud or not\]](<./ML_Classification/Classifying valid Insurance claim[Fraud or not]>) | Classification | Detecting/predicting insurance claim outcomes from customer and policy attributes |
 | [HR Promotion Prediction](./ML_Classification/HR%20Promotion%20Prediction) | Classification | Predicting employee promotion outcomes from HR data |
 | [PIMA Indians Diabetes](./ML_Classification/PIMA%20Indians%20Diabetes) | Classification | Predicting diabetes onset from diagnostic measurements, comparing multiple models |
 | [Titanic Survival](./ML_Classification/Titanic%20Survival) | Classification | Predicting passenger survival on the Titanic dataset |
